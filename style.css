@@ -1,0 +1,309 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+  padding: 60px 20px 60px 20px;
+}
+
+.obrazek-hlavicka {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000000;
+  text-align: center;
+  margin: 10px;
+}
+
+.odstavec-h1 {
+  font-size: 16px;
+  text-align: center;
+  color: #8b8b8b;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 17px;
+}
+
+.odstavec-h2 {
+  font-size: 16px;
+  text-align: center;
+  color: #8b8b8b;
+  margin-bottom: 30px;
+}
+
+hr {
+  width: 60px;
+  height: 2px;
+  color: #407bff;
+  text-align: center;
+}
+
+.button {
+  border-radius: 20px;
+  border: none;
+  height: 40px;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  position: relative;
+}
+
+.dobrodruzstvi {
+  background-color: #407bff;
+  width: 195px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.pohoda {
+  background-color: #8b8b8b;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px;
+  display: flex;
+}
+
+.kaktus,
+.destnik {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 20px 25px 20px 20px;
+}
+
+.box p {
+  font-size: 13px;
+  text-align: left;
+  color: #8b8b8b;
+  margin: 30px 20px 20px 0;
+}
+
+@media screen and (min-width: 640px) {
+  .obrazek-hlavicka {
+    margin-bottom: 30px;
+  }
+
+  .zalomeni-buttony {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    display: inline-block;
+  }
+
+  .dobrodruzstvi {
+    flex: 0 0 195px;
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .pohoda {
+    flex: 0 0 220px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  h2 {
+    margin-top: 80px;
+  }
+
+  .odstavec-h1,
+  .odstavec-h2 {
+    margin-right: 89px;
+    margin-left: 89px;
+  }
+
+  .zalomeni-boxy {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .box {
+    width: 230px;
+    height: 172px;
+    box-shadow: 0 4px 6px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kaktus,
+  .destnik {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .icon {
+    height: 40px;
+    margin: 40px 92px 20px 92px;
+  }
+
+  .box p {
+    text-align: center;
+    margin: 0 15px 20px 15px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    padding: 60px 82px 60px 82px;
+  }
+
+  .sekce1 {
+    width: 1040px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .blok1-sekce1 {
+    width: 490px;
+    margin-left: 30px;
+  }
+
+  .blok1-sekce1 .obrazek-hlavicka {
+    max-width: 425px;
+    left: 32.5px;
+  }
+
+  .blok2-sekce1 {
+    width: 490px;
+    margin-right: 30px;
+  }
+
+  h1 {
+    width: 490px;
+    margin-top: 133px;
+    text-align: left;
+    margin-top: 73px;
+    margin-left: 0;
+  }
+
+  hr {
+    display: inline-block;
+  }
+
+  .odstavec-h1 {
+    width: 490px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .zalomeni-buttony {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .dobrodruzstvi {
+    left: 0;
+  }
+
+  .pohoda {
+    left: 0;
+  }
+
+  .sekce2 {
+    width: 1040px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .blok1-sekce2 {
+    width: 430px;
+  }
+
+  .blok1-sekce2 h2 {
+    width: 100%;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .blok1-sekce2 .odstavec-h2 {
+    width: 430px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .blok2-sekce2 {
+    width: 550px;
+    margin-right: 60px;
+  }
+
+  .zalomeni-boxy {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .box {
+    width: 170px;
+    height: 191px;
+  }
+
+  .sekce3 {
+    width: 1040px;
+    display: flex;
+  }
+
+  .blok1-sekce3 {
+    width: 430px;
+  }
+
+  .blok1-sekce3 h2 {
+    width: 100%;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .blok1-sekce3 .odstavec-h2 {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .blok2-sekce3 {
+    width: 550px;
+    margin-left: 60px;
+  }
+
+  .icon {
+    margin: 40px 65px 20px 65px;
+  }
+}
