@@ -171,13 +171,11 @@ hr {
   .destnik {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 
-  .icon {
+  .box .icon {
     height: 40px;
-    margin: 40px 92px 20px 92px;
+    align-items: center;
   }
 
   .box p {
