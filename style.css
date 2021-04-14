@@ -154,24 +154,25 @@ hr {
 
   .zalomeni-boxy {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0 auto;
   }
 
   .box {
-    width: 230px;
+    width: 30%;
     height: 172px;
     box-shadow: 0 4px 6px;
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
-    margin-left: 20px;
+    align-items: center;
   }
 
   .kaktus,
   .destnik {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .icon {
